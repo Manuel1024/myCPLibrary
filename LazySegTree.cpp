@@ -162,6 +162,7 @@ F id(){
     return {1, 0};
 }
 
+// https://judge.yosupo.jp/problem/range_affine_range_sum
 int main(){
     int n, q; cin >> n >> q;
     vector<int> a(n);
