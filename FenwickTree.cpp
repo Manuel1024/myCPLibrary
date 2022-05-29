@@ -13,6 +13,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+using ll = long long;
 
 template <typename T>
 struct FenwickTree{
@@ -46,7 +47,7 @@ struct FenwickTree{
 int main(){
     int n, q;
     cin >> n >> q;
-    FenwickTree<long long int> ft(n);
+    FenwickTree<ll> ft(n);
     for(int i = 0; i < n; i++){
         int a;
         cin >> a;
